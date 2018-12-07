@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote fetch="https://github.com/ppc-4510-android/" name="ppc-4510-android"/>
+<default sync-j="4" revision="emb-2230" remote="ppc-4510-android"/>
+
+
+<project path="build" name="build" />
+<project path="device" name="device" />
+<project path="packages/apps" name="packages-apps" />
+<project path="kernel_imx" name="android-kernel-imx" />
+<project path="system" name="system" />
+<project path="external/fsl_imx_omg" name="external-fsl_imx_omx" />
+<project path="frameworks/opt" name="framework-opt" />
+<project path="frameworks/base" name="framework-base" />
+<project path="hardware" name="hardware" />
+<project path="external/wpa_supplicant_8" name="external-wpa_supplicant_8" />
+<project path="frameworks/native" name="framework-native" />
+<project path="bootable/bootloader/uboot-imx" name="android-uboot" />
+
+</manifest>
